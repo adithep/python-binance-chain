@@ -24,8 +24,8 @@ def find_version(*file_paths):
 def install_requires():
 
     requires = [
-        'pycoin>=0.90.20201031', 'requests>=2.21.0', 'websockets>=7.0', 'aiohttp>=3.5.4',
-        'secp256k1>=0.13.2', 'protobuf>=3.6.1', 'mnemonic>=0.18', 'ujson>=1.35'
+        'pycoin>=0.91.20210515', 'requests>=2.25.1', 'websockets>=9.1', 'aiohttp>=3.7.4',
+        'secp256k1>=0.13.2', 'protobuf>=3.17.3', 'mnemonic>=0.19', 'ujson>=4.0.2'
     ]
     return requires
 
